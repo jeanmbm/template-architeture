@@ -7,6 +7,7 @@
 main {
   height: 100%;
   width: 100%;
+  
 }
 
 .container {
@@ -17,6 +18,15 @@ main {
   display: flex;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #F97015;
+}
+
 .first-font {
   font-family: Oswald, sans-serif;
 }
@@ -25,11 +35,17 @@ article {
   font-family: "Open Sans", sans-serif;
 }
 
+.link {
+  color: #F97015;
+  text-decoration: none;
+}
+
 .button {
   display: inline-block;
-  padding: 8px 30px;
+  padding: 11px 35px;
   font-size: 16px;
   text-decoration: none;
+  letter-spacing: 2px;
   color: #ffffff;
   background-color: #F97015;
 }
