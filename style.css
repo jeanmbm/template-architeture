@@ -1,0 +1,54 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  padding: 5.5% 6%;
+}
+
+.flex {
+  display: flex;
+}
+
+.first-font {
+  font-family: Oswald, sans-serif;
+}
+
+article {
+  font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #F97015;
+}
+
+/* FOOTER */
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12.8px;
+  padding: 35px 20px;
+  text-align: center;
+  color: #ffffff;;
+  background-color: #333333;
+}
+
+footer a {
+  color: #FDC5A0;
+}
+
+footer a:hover, footer a:active {
+  color: gray;
+  text-decoration: none;
+}
