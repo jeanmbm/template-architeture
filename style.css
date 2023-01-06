@@ -10,6 +10,28 @@ main {
   
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #F97015;
+}
+
+article {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  color: #ffffff;
+  filter: contrast(0%) brightness(2);
+}
+
+.first-font {
+  font-family: Oswald, sans-serif !important;
+}
+
 .container {
   padding: 4.5% 6%;
 }
@@ -22,37 +44,33 @@ main {
   display: flex;
 }
 
-.card {
+.cards {
   margin: 25px;
+}
+
+.card {
   background-color: #F97015;
-  height: 75px;
-  width: 75px;
+  height: 85px;
+  width: 85px;
   border-radius: 50%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 .size {
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
   margin-left: auto;
   margin-right: auto;
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.1;
+.text-card {
+  text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-  color: #F97015;
-}
-
-.first-font {
-  font-family: Oswald, sans-serif;
-}
-
-article {
-  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .link {
