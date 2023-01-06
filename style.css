@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 * { 
   margin: 0;
   padding: 0;
@@ -23,17 +25,21 @@ article {
   font-family: "Open Sans", sans-serif;
 }
 
-img {
+.png {
   color: #ffffff;
   filter: contrast(0%) brightness(2);
 }
 
 .first-font {
-  font-family: Oswald, sans-serif !important;
+  font-family: 'Oswald', sans-serif !important;
 }
 
 .container {
   padding: 4.5% 6%;
+}
+
+.space {
+  margin: 1.55rem 0;
 }
 
 .flex {
@@ -42,6 +48,7 @@ img {
 
 .flex-cards {
   display: flex;
+  margin-top: 25px;
 }
 
 .cards {
@@ -49,7 +56,6 @@ img {
 }
 
 .card {
-  background-color: #F97015;
   height: 85px;
   width: 85px;
   border-radius: 50%;
@@ -68,9 +74,8 @@ img {
 
 .text-card {
   text-align: center;
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 1.5rem;
+  margin-top: 10px;
+  font-size: 1.4rem;
 }
 
 .link {
@@ -85,9 +90,11 @@ img {
   text-decoration: none;
   letter-spacing: 2px;
   color: #ffffff;
-  background-color: #F97015;
 }
 
+.orange-background {
+  background-color: #F97015;
+}
 /* FOOTER */
 footer {
   font-family: "Open Sans", sans-serif;
