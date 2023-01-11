@@ -114,16 +114,16 @@ article {
 
 .social-icon {
   display: block;
-  width: 5%;
+  width: 25px;
   margin: 0 8px;
 }
 
-
-/* .text {
+.subtitle {
   text-align: center;
   color: white;
   font-size: 48px;
-} */
+  font-weight: 400;
+}
 
 /* FOOTER */
 footer {
