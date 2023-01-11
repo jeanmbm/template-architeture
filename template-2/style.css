@@ -1,0 +1,49 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: table-cell;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/medium-shot-side-view-construction-engineer-using-tablet.jpg);
+  background-size: cover;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #f5773d;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  background-color: white;
+}
+
+
+/* FOOTER */
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12.8px;
+  padding: 35px 20px;
+  text-align: center;
+  color: #ffffff;;
+  background-color: #333333;
+}
+
+footer a {
+  color: #ADCCE9;
+}
+
+footer a:hover, footer a:active {
+  color: gray;
+  text-decoration: none;
+}
