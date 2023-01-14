@@ -125,6 +125,11 @@ article {
   font-weight: 400;
 }
 
+.size-flex {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
 /* FOOTER */
 footer {
   font-family: "Open Sans", sans-serif;
