@@ -27,12 +27,10 @@ p {
   font-family: "Arimo", sans-serif;
 }
 
-button strong {
-  
-}
-
 .flex {
   display: flex;
+  width: 1011px;
+  margin: 60px auto 0;
 }
 
 #black {
@@ -66,4 +64,11 @@ button strong {
 .btn:hover {
   background-color: black;
   color: white;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
 }
