@@ -12,19 +12,24 @@ body, img {
 }
 
 hr {
-  width: 100px;
-  height: 5px;
+  width: 115px;
+  height: 7px;
   background-color: white;
   border: none;
+  margin-top: 45px;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font: 600 2.25rem "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-top: 20px;
 }
 
 p {
-  font-family: "Arimo", sans-serif;
+  font: 20px "Arimo", sans-serif;
+  line-height: 43px;
+  margin-top: 33px;
 }
 
 .flex {
@@ -36,10 +41,13 @@ p {
 #black {
   background-color: black;
   color: white;
+  border-radius: 0 25px;
+  padding: 30px;
+  max-width: 490px;
 }
 
 #div-img {
-  max-width: 235px;
+  max-width: 260px;
   height: auto;
   width: auto;
 }
@@ -49,13 +57,15 @@ p {
 }
 
 .btn {
-  font: 0.71em 'OpenSans', sans-serif;
+  font: 700 0.8em 'OpenSans', sans-serif;
+  letter-spacing: 2px;
   text-decoration: none;
   background-color: white;
   color: black;
-  padding: 17px 38px;
+  padding: 22px 52px;
+  margin-top: 38px;
   border: none;
-  border-radius: 0 14px;
+  border-radius: 0 18px;
   cursor: pointer;
   transition-duration: 0.3s;
   display: inline-block;
@@ -71,4 +81,6 @@ p {
   align-items: center;
   justify-content: center;
   margin: 50px;
+  font: 15px 'OpenSans', sans-serif;
+  color: black;
 }
